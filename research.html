@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.5.0/css/bootstrap.min.css">
+    <style>
+        /* Additional CSS specific to post-page.html */
+        body {
+          margin: 0;
+          padding-top: 5rem; /* Adjust this value to provide space for the fixed navbar */
+        }
+    
+        /* Fixed Navbar */
+        nav {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background-color: #fff;
+          padding: 1.25rem;
+          color: #000;
+        }
+    
+        .logo {
+          height: 4.375rem;
+          width: 15.625rem;
+        }
+    
+        .nav-links {
+          float: right;
+        }
+    
+        .nav-links a {
+          color: #4c175a;
+          text-decoration: none;
+          margin-left: 1.25rem;
+          font-size: 1.5625rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <div class="contain">
+            <nav class="navbar">
+                <a class="navbar-brand" href="index.html"><img src="logo1.png" class="logo" alt="Logo"></a>
+                <div class="nav-links">
+                  <a href="index.html">Back to Home</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="blog">
+        <div class="post-filter container">
+            <span class="filter-item active-filter" data-filter="all">All</span>
+            <span class="filter-item" data-filter="rl">Reinforcement Learning</span>
+            <span class="filter-item" data-filter="dl">Deep Learning</span>
+            <span class="filter-item" data-filter="nn">Neural Network architecture</span>
+            <span class="filter-item" data-filter="vehi">AI in autonomous vehicles</span>
+            <span class="filter-item" data-filter="health">AI for healthcare and medicine</span>
+        </div>
+
+        <section class="post container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="post-box rl">
+                        <a href="post-page.html"><img src="rl.jpg" alt="" class="post-img"></a>
+                        <h2 class="category">Reinforcement Learning</h2>
+                        <a href="post-page.html" class="post-title">
+                            Demystifying Machine Learning: A Beginner's Guide to Algorithms and Applications.
+                        </a>
+                        <span class="post-date">15 May 2022</span>
+                        <p class="post-description">Explore the fundamentals of machine learning, from understanding popular algorithms to discovering real-world applications, making it accessible to beginners.</p>
+                        <div class="profile">
+                            <img src="icon1.jpeg" alt=""class="profile-img">
+                            <span class="profile-name">Vikram Seth</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post-box dl">
+                        <a href="post-page.html"><img src="dl.jpg" alt="" class="post-img"></a>
+                        <h2 class="category">Deep Learning</h2>
+                        <a href="post-page.html" class="post-title">
+                            Understanding NLP: From Sentiment Analysis to Language Generation.
+                        </a>
+                        <span class="post-date">15 June 2022</span>
+                        <p class="post-description"> Gain insights into the fascinating field of natural language processing, diving into sentiment analysis and language generation techniques, enabling machines to understand and communicate like humans.</p>
+                        <div class="profile">
+                            <img src="icon2.png" alt=""class="profile-img">
+                            <span class="profile-name">Anita Desai</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="post-box nn">
+                        <a href="post-page.html"><img src="nn.jpg" alt="" class="post-img"></a>
+                        <h2 class="category">Neural Network architecture</h2>
+                        <a href="post-page.html" class="post-title">
+                            Computer Vision in the Real World: Applications and Challenges.
+                        </a>
+                        <span class="post-date">1 July 2022</span>
+                        <p class="post-description"> Discover the practical applications of computer vision in diverse fields, uncovering challenges and solutions to enhance object recognition, image processing, and more.</p>
+                        <div class="profile">
+                            <img src="icon3.jpg" alt=""class="profile-img">
+                            <span class="profile-name">Shashi Tharoor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post-box vehi">
+                        <a href="post-page.html"><img src="vehi.jpeg" alt="" class="post-img"></a>
+                        <h2 class="category">AI in autonomous vehicles</h2>
+                        <a href="post-page.html" class="post-title">
+                            Robots Revolutionizing Industries: Exploring the Latest Trends in Robotics. 
+                        </a>
+                        <span class="post-date">18 May 2023</span>
+                        <p class="post-description"> Explore how robotics is reshaping industries, from manufacturing to healthcare, and dive into the latest trends driving the future of automation and intelligent machines.</p>
+                        <div class="profile">
+                            <img src="icon4.png" alt=""class="profile-img">
+                            <span class="profile-name">Rupi Kaur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="post-box health">
+                        <a href="post-page.html"><img src="health.jpeg" alt="" class="post-img"></a>
+                        <h2 class="category">AI for healthcare and medicine</h2>
+                        <a href="post-page.html" class="post-title">
+                            Mastering Predictive Analytics: Leveraging Data for Better Decision-Making.
+                        </a>
+                        <span class="post-date">18 Feb 2022</span>
+                        <p class="post-description">Master the art of predictive analytics, harnessing the power of data to make informed decisions, drive business growth, and gain a competitive edge in today's data-driven world.</p>
+                        <div class="profile">
+                            <img src="icon5.jpg" alt=""class="profile-img">
+                            <span class="profile-name">Amish Tripathi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post-box nn">
+                        <a href="post-page.html"><img src="dl.jpg" alt="" class="post-img"></a>
+                        <h2 class="category">Neural Network architecture</h2>
+                        <a href="post-page.html" class="post-title">
+                            Exploring Deep Learning: Unveiling the Power of Neural Networks.
+                        </a>
+                        <span class="post-date">14 July 2021</span>
+                        <p class="post-description"> Delve into the world of deep learning, unraveling the inner workings of neural networks and uncovering their immense potential in various domains.</p>
+                        <div class="profile">
+                            <img src="icon5.jpg" alt=""class="profile-img">
+                            <span class="profile-name">Amish Tripathi</span>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-4">
+                    <div class="post-box rl">
+                        <a href="post-page.html"><img src="NLP.png" alt="" class="post-img"></a>
+                        <h2 class="category">Reinforcement Learning</h2>
+                        <a href="post-page.html" class="post-title">
+                            Advancements in Natural Language Processing.
+                        </a>
+                        <span class="post-date">06 June 2020</span>
+                        <p class="post-description"> Bridging the Gap between Humans and Machines" - Discover the latest advancements in NLP, bridging the gap between humans and machines, revolutionizing communication and paving the way for intelligent applications.</p>
+                        <div class="profile">
+                            <img src="icon4.png" alt=""class="profile-img">
+                            <span class="profile-name">Rupi Kaur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="post-box health">
+                        <a href="post-page.html"><img src="eco.jpg" alt="" class="post-img"></a>
+                        <h2 class="category">AI for healthcare and medicine</h2>
+                        <a href="post-page.html" class="post-title">
+                            Deep Dive into Object Detection: Techniques and Algorithms.
+                        </a>
+                        <span class="post-date">31 Dec 2022</span>
+                        <p class="post-description">Take a deep dive into the world of object detection, exploring cutting-edge techniques and algorithms powering the accurate identification and localization of objects in images and videos.</p>
+                        <div class="profile">
+                            <img src="icon1.jpeg" alt=""class="profile-img">
+                            <span class="profile-name">Vikram Seth</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post-box vehi">
+                        <a href="post-page.html"><img src="cv.jpg" alt="" class="post-img"></a>
+                        <h2 class="category">AI in autonomous vehicles</h2>
+                        <a href="post-page.html" class="post-title">
+                            From Automation to Artificial Intelligence: The Future of Robotics.
+                        </a>
+                        <span class="post-date">18 Sep 2021</span>
+                        <p class="post-description">Delve into the exciting advancements in robotics, from automation to artificial intelligence, and unravel the potential of robots to transform our daily lives.</p>
+                        <div class="profile">
+                            <img src="icon3.jpg" alt=""class="profile-img">
+                            <span class="profile-name">Shashi Tharoor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post-box dl">
+                        <a href="post-page.html"><img src="dl.jpg" alt="" class="post-img"></a>
+                        <h2 class="category">Deep Learning</h2>
+                        <a href="post-page.html" class="post-title">
+                            Predictive Analytics in Action: Unleashing the Power of Data-driven Insights.
+                        </a>
+                        <span class="post-date">03 Feb 2022</span>
+                        <p class="post-description">Witness the power of predictive analytics in action as data-driven insights unlock hidden patterns and trends, empowering organizations to optimize processes, improve customer experiences, and drive innovation.</p>
+                        <div class="profile">
+                            <img src="icon2.png" alt=""class="profile-img">
+                            <span class="profile-name">Anita Desai</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+    </div>
+    <div class="footer container">
+        <p>&#169; All Right Reserved</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.5.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
